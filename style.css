@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display:grid;
+    place-items: center;
+    height: 100vh;
+    /* background-color: aquamarine; */
+}
+
+/* .markers{
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 300px;
+} */
+main{
+
+    width: 300px;
+    height: 250px;
+}
+.longbar{
+    background: linear-gradient(rgb(15,15,1),red,tomato,red,rgb(15,15,1)) ;
+    width: 100%;
+    height: 40px;
+    padding-left: 35%;
+
+}
+.faintbar{
+    width:180px;
+    height: 40px;
+    background-color: rgb(225, 225, 232);
+    opacity: 80%;
+    border-left: solid 5px;
+    border-left: double 15px;
+}
+
+.secondbar{
+    background: linear-gradient(rgb(15,15,1),black,green,black,rgb(15,15,1)) ;
+    width: 100%;
+    height: 40px;
+    padding-left: 35%;
+
+}
+.faintbar2{
+    width:180px;
+    height: 40px;
+    background-color: rgb(225, 225, 232);
+    opacity: 80%;
+    border-left: solid 5px;
+    border-left: double 15px;
+}
+.Thirdbar{
+    background: linear-gradient(rgb(15,15,1),black,blue,black,rgb(15,15,1)) ;
+    width: 100%;
+    height: 40px;
+    padding-left: 35%;
+
+}
+.faintbar3{
+    width:180px;
+    height: 40px;
+    background-color: rgb(225, 225, 232);
+    opacity: 80%;
+    border-left: solid 5px;
+    border-left: double 15px;
+}
